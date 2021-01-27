@@ -20,14 +20,14 @@ Gem::Specification.new do |gem|
 
   # Dependencies
   gem.add_development_dependency('rspec', '~> 2.14.1')
-  gem.add_development_dependency('webmock', '~> 1.8.0')
+  gem.add_development_dependency('webmock', '~> 3.11')
   gem.add_development_dependency('rake', '~> 10.0.3')
   gem.add_development_dependency('pry', '~> 0.9.12')
-  gem.add_development_dependency('vcr', '~> 2.4.0')
+  gem.add_development_dependency('vcr', '~> 6.0')
   gem.add_development_dependency('yard', '~> 0.8.5.2')
   gem.add_development_dependency('redcarpet', '~> 2.2.2')
   gem.add_development_dependency('guard-rspec', '~> 4.0.2')
-  gem.add_runtime_dependency('faraday', '~> 0.9.0')
-  gem.add_runtime_dependency('faraday_middleware', '~> 0.9.0')
+  gem.add_runtime_dependency('faraday', '~> 1.3')
+  gem.add_runtime_dependency('faraday_middleware', '~> 1.0')
   gem.add_runtime_dependency('hashie',  '>= 2.0')
 end
