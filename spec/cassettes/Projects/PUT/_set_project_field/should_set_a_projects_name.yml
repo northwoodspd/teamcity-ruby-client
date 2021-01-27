@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/projects
+    uri: http://localhost:8111/httpAuth/app/rest/projects
     body:
       encoding: US-ASCII
       string: PutSetProjectNameField
@@ -44,7 +44,7 @@ http_interactions:
   recorded_at: Wed, 14 Aug 2013 02:43:22 GMT
 - request:
     method: put
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/projects/PutSetProjectNameField/name
+    uri: http://localhost:8111/httpAuth/app/rest/projects/PutSetProjectNameField/name
     body:
       encoding: US-ASCII
       string: PutNewProjectName

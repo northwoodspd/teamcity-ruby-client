@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/buildTypes/BuildTypeTests_PostBuildTypeTests/triggers
+    uri: http://localhost:8111/httpAuth/app/rest/buildTypes/BuildTypeTests_PostBuildTypeTests/triggers
     body:
       encoding: UTF-8
       string: '{"type":"vcsTrigger","properties":{"property":[{"name":"groupCheckkinsByCommitter","value":"true"},{"name":"perCheckinTriggering","value":"true"},{"name":"quietPeriodMode","value":"DO_NOT_USE"}]}}'

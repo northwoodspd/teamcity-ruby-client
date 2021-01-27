@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/buildTypes/BuildTypeTests_PostBuildTypeTests/agent-requirements
+    uri: http://localhost:8111/httpAuth/app/rest/buildTypes/BuildTypeTests_PostBuildTypeTests/agent-requirements
     body:
       encoding: UTF-8
       string: '{"id":"post-agent-requirement-name","type":"equals","properties":{"property":[{"name":"property-name","value":"post-agent-requirement-name"},{"name":"property-value","value":"post-agent-requirement-value"}]}}'
