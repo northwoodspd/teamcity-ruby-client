@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/buildTypes/BuildTypeTests_PostBuildTypeTests/steps
+    uri: http://localhost:8111/httpAuth/app/rest/buildTypes/BuildTypeTests_PostBuildTypeTests/steps
     body:
       encoding: UTF-8
       string: '{"type":"Maven","name":"Unit Tests","properties":{"property":[{"name":"goals","value":"verify"},{"name":"mavenSelection","value":"mavenSelection:default"},{"name":"pomLocation","value":"pom.xml"}]}}'

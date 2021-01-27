@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/projects
+    uri: http://localhost:8111/httpAuth/app/rest/projects
     body:
       encoding: US-ASCII
       string: PutCreateProjectParam
@@ -44,7 +44,7 @@ http_interactions:
   recorded_at: Wed, 14 Aug 2013 02:31:01 GMT
 - request:
     method: put
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/projects/PutCreateProjectParam/parameters/set-with-param
+    uri: http://localhost:8111/httpAuth/app/rest/projects/PutCreateProjectParam/parameters/set-with-param
     body:
       encoding: US-ASCII
       string: some-value

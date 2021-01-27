@@ -1,4 +1,8 @@
-## 1.3.1 (Jun 4, 20014)
+## 1.3.2 (Jan 27, 2021)
+
+* Updated faraday, webmock, vcr
+
+## 1.3.1 (Jun 4, 2014)
 
 * Dependencies
     * Loosen up hashie version constraint to >= 2.0

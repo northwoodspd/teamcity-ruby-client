@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/projects
+    uri: http://localhost:8111/httpAuth/app/rest/projects
     body:
       encoding: US-ASCII
       string: ''
@@ -47,7 +47,7 @@ http_interactions:
   recorded_at: Wed, 04 Mar 2015 20:50:42 GMT
 - request:
     method: post
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/vcs-roots
+    uri: http://localhost:8111/httpAuth/app/rest/vcs-roots
     body:
       encoding: UTF-8
       string: '{"name":"PutSetCheckIntervalField","vcsName":"jetbrains.git","projectLocator":"TestProject","properties":{"property":[{"name":"branch","value":"master"},{"name":"url","value":"git@github.com:jperry/teamcity-ruby-client.git"},{"name":"authMethod","value":"PRIVATE_KEY_DEFAULT"},{"name":"ignoreKnownHosts","value":true}]}}'
@@ -91,7 +91,7 @@ http_interactions:
   recorded_at: Wed, 04 Mar 2015 20:50:42 GMT
 - request:
     method: put
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/vcs-roots/id:TestProject_PutSetCheckIntervalField/modificationCheckInterval
+    uri: http://localhost:8111/httpAuth/app/rest/vcs-roots/id:TestProject_PutSetCheckIntervalField/modificationCheckInterval
     body:
       encoding: US-ASCII
       string: '86400'
@@ -134,7 +134,7 @@ http_interactions:
   recorded_at: Wed, 04 Mar 2015 20:50:42 GMT
 - request:
     method: get
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/vcs-roots/id:TestProject_PutSetCheckIntervalField
+    uri: http://localhost:8111/httpAuth/app/rest/vcs-roots/id:TestProject_PutSetCheckIntervalField
     body:
       encoding: US-ASCII
       string: ''

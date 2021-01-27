@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/buildTypes/BuildTypeTests_PostBuildTypeTests/vcs-root-entries
+    uri: http://localhost:8111/httpAuth/app/rest/buildTypes/BuildTypeTests_PostBuildTypeTests/vcs-root-entries
     body:
       encoding: UTF-8
       string: '{"vcs-root":{"id":"teamcity_ruby_client"}}'

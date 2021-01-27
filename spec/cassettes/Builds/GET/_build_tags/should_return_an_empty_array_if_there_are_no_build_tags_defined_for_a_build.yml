@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/builds
+    uri: http://localhost:8111/httpAuth/app/rest/builds
     body:
       encoding: US-ASCII
       string: ''
@@ -45,7 +45,7 @@ http_interactions:
   recorded_at: Wed, 14 Aug 2013 14:18:12 GMT
 - request:
     method: get
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/builds/id:36/tags
+    uri: http://localhost:8111/httpAuth/app/rest/builds/id:36/tags
     body:
       encoding: US-ASCII
       string: ''

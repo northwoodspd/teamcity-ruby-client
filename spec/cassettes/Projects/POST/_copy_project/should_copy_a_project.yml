@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/projects
+    uri: http://localhost:8111/httpAuth/app/rest/projects
     body:
       encoding: UTF-8
       string: PostProjectToBeCopied
@@ -46,7 +46,7 @@ http_interactions:
   recorded_at: Wed, 27 Nov 2013 20:29:37 GMT
 - request:
     method: get
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/projects/id:PostProjectToBeCopied
+    uri: http://localhost:8111/httpAuth/app/rest/projects/id:PostProjectToBeCopied
     body:
       encoding: US-ASCII
       string: ''
@@ -90,7 +90,7 @@ http_interactions:
   recorded_at: Wed, 27 Nov 2013 20:29:37 GMT
 - request:
     method: post
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/projects
+    uri: http://localhost:8111/httpAuth/app/rest/projects
     body:
       encoding: UTF-8
       string: '{"sourceProject":{"locator":"PostProjectToBeCopied"},"name":"PostCopyProject"}'

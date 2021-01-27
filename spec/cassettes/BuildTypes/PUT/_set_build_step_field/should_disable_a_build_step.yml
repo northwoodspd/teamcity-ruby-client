@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: put
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/buildTypes/BuildTypeTests_PutSetBuildStepField/steps/RUNNER_7/disabled
+    uri: http://localhost:8111/httpAuth/app/rest/buildTypes/BuildTypeTests_PutSetBuildStepField/steps/RUNNER_7/disabled
     body:
       encoding: US-ASCII
       string: 'true'

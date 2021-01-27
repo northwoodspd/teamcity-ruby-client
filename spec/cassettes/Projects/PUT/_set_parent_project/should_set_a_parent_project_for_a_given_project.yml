@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/projects
+    uri: http://localhost:8111/httpAuth/app/rest/projects
     body:
       encoding: UTF-8
       string: PutSetParentProject
@@ -46,7 +46,7 @@ http_interactions:
   recorded_at: Wed, 27 Nov 2013 20:12:34 GMT
 - request:
     method: post
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/projects
+    uri: http://localhost:8111/httpAuth/app/rest/projects
     body:
       encoding: UTF-8
       string: PutParentProject
@@ -90,7 +90,7 @@ http_interactions:
   recorded_at: Wed, 27 Nov 2013 20:12:34 GMT
 - request:
     method: put
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/projects/PutSetParentProject/parentProject
+    uri: http://localhost:8111/httpAuth/app/rest/projects/PutSetParentProject/parentProject
     body:
       encoding: UTF-8
       string: '{"id":"PutParentProject"}'

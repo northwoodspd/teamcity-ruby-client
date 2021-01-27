@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/projects
+    uri: http://localhost:8111/httpAuth/app/rest/projects
     body:
       encoding: US-ASCII
       string: ''
@@ -45,7 +45,7 @@ http_interactions:
   recorded_at: Wed, 27 Nov 2013 18:40:58 GMT
 - request:
     method: post
-    uri: http://teamcity-ruby-client:teamcity@localhost:8111/httpAuth/app/rest/vcs-roots
+    uri: http://localhost:8111/httpAuth/app/rest/vcs-roots
     body:
       encoding: UTF-8
       string: '{"name":"PostCreateVCSRootSvn","vcsName":"svn","projectLocator":"Test","properties":{"property":[{"name":"branch","value":"master"},{"name":"url","value":"http://svn.example.com/jperry/teamcity-ruby-client"},{"name":"authMethod","value":"PRIVATE_KEY_DEFAULT"},{"name":"ignoreKnownHosts","value":true}]}}'
